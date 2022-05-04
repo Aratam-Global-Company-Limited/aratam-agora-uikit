@@ -15,8 +15,9 @@ class _DisabledVideoWidgetState extends State<DisabledVideoWidget> {
       color: Colors.black,
       padding: const EdgeInsets.all(8.0),
       child: Center(
-        child: Image.network(
-          'https://i.ibb.co/q5RysSV/image.png',
+        child: Icon(
+          Icons.videocam_off,
+          size: 100,
         ),
       ),
     );
